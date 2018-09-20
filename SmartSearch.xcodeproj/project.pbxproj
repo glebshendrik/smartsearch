@@ -15,6 +15,11 @@
 		B50E05B72152C5FA00AAC133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50E05B52152C5FA00AAC133 /* LaunchScreen.storyboard */; };
 		B50E05C22152C5FA00AAC133 /* SmartSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50E05C12152C5FA00AAC133 /* SmartSearchTests.swift */; };
 		B50E05CD2152C5FA00AAC133 /* SmartSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50E05CC2152C5FA00AAC133 /* SmartSearchUITests.swift */; };
+		B53B41FE21530D3F00DB4DED /* names.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B53B41FD21530D3E00DB4DED /* names.mlmodel */; };
+		B5E141792152F5A7009D64C1 /* TextClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B5E141782152F5A7009D64C1 /* TextClassifier.mlmodel */; };
+		B5F8DD0A2153561100849AFE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B5F8DD092153561100849AFE /* README.md */; };
+		B5F8DD0D2153724A00849AFE /* coreML.gif in Resources */ = {isa = PBXBuildFile; fileRef = B5F8DD0B2153724A00849AFE /* coreML.gif */; };
+		B5F8DD0E2153724A00849AFE /* createMLprocess.gif in Resources */ = {isa = PBXBuildFile; fileRef = B5F8DD0C2153724A00849AFE /* createMLprocess.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,12 @@
 		B50E05C82152C5FA00AAC133 /* SmartSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B50E05CC2152C5FA00AAC133 /* SmartSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartSearchUITests.swift; sourceTree = "<group>"; };
 		B50E05CE2152C5FA00AAC133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B53B41FD21530D3E00DB4DED /* names.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = names.mlmodel; sourceTree = "<group>"; };
+		B5E141772152F546009D64C1 /* Training.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Training.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B5E141782152F5A7009D64C1 /* TextClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TextClassifier.mlmodel; sourceTree = "<group>"; };
+		B5F8DD092153561100849AFE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B5F8DD0B2153724A00849AFE /* coreML.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = coreML.gif; sourceTree = "<group>"; };
+		B5F8DD0C2153724A00849AFE /* createMLprocess.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = createMLprocess.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +94,9 @@
 				B50E05C02152C5FA00AAC133 /* SmartSearchTests */,
 				B50E05CB2152C5FA00AAC133 /* SmartSearchUITests */,
 				B50E05A72152C5F700AAC133 /* Products */,
+				B5F8DD092153561100849AFE /* README.md */,
+				B5F8DD0B2153724A00849AFE /* coreML.gif */,
+				B5F8DD0C2153724A00849AFE /* createMLprocess.gif */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +113,7 @@
 		B50E05A82152C5F700AAC133 /* SmartSearch */ = {
 			isa = PBXGroup;
 			children = (
+				B5E141762152F4ED009D64C1 /* Resources */,
 				B50E05A92152C5F700AAC133 /* AppDelegate.swift */,
 				B50E05AB2152C5F700AAC133 /* ViewController.swift */,
 				B50E05AD2152C5F700AAC133 /* Main.storyboard */,
@@ -126,6 +141,16 @@
 				B50E05CE2152C5FA00AAC133 /* Info.plist */,
 			);
 			path = SmartSearchUITests;
+			sourceTree = "<group>";
+		};
+		B5E141762152F4ED009D64C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B53B41FD21530D3E00DB4DED /* names.mlmodel */,
+				B5E141782152F5A7009D64C1 /* TextClassifier.mlmodel */,
+				B5E141772152F546009D64C1 /* Training.playground */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +257,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5F8DD0E2153724A00849AFE /* createMLprocess.gif in Resources */,
 				B50E05B72152C5FA00AAC133 /* LaunchScreen.storyboard in Resources */,
 				B50E05B42152C5FA00AAC133 /* Assets.xcassets in Resources */,
+				B5F8DD0A2153561100849AFE /* README.md in Resources */,
 				B50E05AF2152C5F700AAC133 /* Main.storyboard in Resources */,
+				B5F8DD0D2153724A00849AFE /* coreML.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5E141792152F5A7009D64C1 /* TextClassifier.mlmodel in Sources */,
+				B53B41FE21530D3F00DB4DED /* names.mlmodel in Sources */,
 				B50E05AC2152C5F700AAC133 /* ViewController.swift in Sources */,
 				B50E05AA2152C5F700AAC133 /* AppDelegate.swift in Sources */,
 				B50E05B22152C5F700AAC133 /* SmartSearch.xcdatamodeld in Sources */,
