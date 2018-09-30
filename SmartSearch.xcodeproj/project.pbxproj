@@ -16,7 +16,6 @@
 		B50E05C22152C5FA00AAC133 /* SmartSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50E05C12152C5FA00AAC133 /* SmartSearchTests.swift */; };
 		B50E05CD2152C5FA00AAC133 /* SmartSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50E05CC2152C5FA00AAC133 /* SmartSearchUITests.swift */; };
 		B53B41FE21530D3F00DB4DED /* names.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B53B41FD21530D3E00DB4DED /* names.mlmodel */; };
-		B5E141792152F5A7009D64C1 /* TextClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B5E141782152F5A7009D64C1 /* TextClassifier.mlmodel */; };
 		B5F8DD0A2153561100849AFE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B5F8DD092153561100849AFE /* README.md */; };
 		B5F8DD0D2153724A00849AFE /* coreML.gif in Resources */ = {isa = PBXBuildFile; fileRef = B5F8DD0B2153724A00849AFE /* coreML.gif */; };
 		B5F8DD0E2153724A00849AFE /* createMLprocess.gif in Resources */ = {isa = PBXBuildFile; fileRef = B5F8DD0C2153724A00849AFE /* createMLprocess.gif */; };
@@ -56,7 +55,6 @@
 		B50E05CE2152C5FA00AAC133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B53B41FD21530D3E00DB4DED /* names.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = names.mlmodel; sourceTree = "<group>"; };
 		B5E141772152F546009D64C1 /* Training.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Training.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		B5E141782152F5A7009D64C1 /* TextClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TextClassifier.mlmodel; sourceTree = "<group>"; };
 		B5F8DD092153561100849AFE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B5F8DD0B2153724A00849AFE /* coreML.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = coreML.gif; sourceTree = "<group>"; };
 		B5F8DD0C2153724A00849AFE /* createMLprocess.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = createMLprocess.gif; sourceTree = "<group>"; };
@@ -147,7 +145,6 @@
 			isa = PBXGroup;
 			children = (
 				B53B41FD21530D3E00DB4DED /* names.mlmodel */,
-				B5E141782152F5A7009D64C1 /* TextClassifier.mlmodel */,
 				B5E141772152F546009D64C1 /* Training.playground */,
 			);
 			path = Resources;
@@ -287,7 +284,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5E141792152F5A7009D64C1 /* TextClassifier.mlmodel in Sources */,
 				B53B41FE21530D3F00DB4DED /* names.mlmodel in Sources */,
 				B50E05AC2152C5F700AAC133 /* ViewController.swift in Sources */,
 				B50E05AA2152C5F700AAC133 /* AppDelegate.swift in Sources */,
